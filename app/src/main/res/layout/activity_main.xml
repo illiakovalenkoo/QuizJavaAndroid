@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/question_label"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="500dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#040404"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_correct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="270dp"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="10dp"
+        android:background="@color/btn_correct"
+        android:text="@string/btn_correct" />
+
+    <Button
+        android:id="@+id/btn_incorrect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="25dp"
+        android:paddingVertical="10dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginStart="230dp"
+        android:background="@color/btn_incorrect"
+        android:text="@string/btn_incorrect" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="370dp"
+        android:background="@color/btn_next"
+        android:paddingHorizontal="25dp"
+        android:paddingVertical="10dp"
+        android:text="@string/btn_next"
+        android:visibility="invisible" />
+
+</RelativeLayout>

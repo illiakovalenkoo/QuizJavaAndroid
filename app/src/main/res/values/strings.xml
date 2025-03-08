@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="btn_correct">True</string>
+    <string name="btn_incorrect">False</string>
+    <string name="btn_next">Next question</string>
+
+    <string name="question_1">Can Android apps be developed using Kotlin?</string>
+    <string name="question_2">Is MainActivity a mandatory component in every Android app?</string>
+    <string name="question_3">Is the AndroidManifest.xml file used to define app components?</string>
+    <string name="question_4">Can an Android app run without an emulator or a physical device?</string>
+    <string name="question_5">Is XML the primary format for UI layout in Android?</string>
+
+
+</resources>

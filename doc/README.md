@@ -76,14 +76,19 @@ If you want to install the pre-built APK file without running the project in And
 │── images/                        # Screenshots and images for documentation
 │── doc/                           # README.md file
 ```
-
-## 4. Technologies Used
+## 4. Tests'
+- **img.png**
+- **img_1.png**
+- **img_2.png**
+- **img_3.png**
+- **img_4.png**
+## 5. Technologies Used
 
 - **Java (Android SDK)**
 - **XML (UI Layouts)**
 - **Android Activity Lifecycle** (for handling quiz logic)
 
-## 5. Application Testing
+## 6. Application Testing
 
 The application has been tested for:
 
@@ -93,7 +98,7 @@ The application has been tested for:
 - Performance on emulator and real devices
 - APK installation and manual execution
 
-## 6. License
+## 7. License
 
 This project is licensed under the **MIT License**. You are free to use, modify, and distribute this software with no restrictions. The software is provided "as is", without warranty of any kind.
 

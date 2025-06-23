@@ -77,11 +77,11 @@ If you want to install the pre-built APK file without running the project in And
 │── doc/                           # README.md file
 ```
 ## 4. Tests'
-- **img.png**
-- **img_1.png**
-- **img_2.png**
-- **img_3.png**
-- **img_4.png**
+- **img.png** (Loading screen (from icon to start page))
+- **img_1.png** (One of questions with 2 possibilities to answer - True or False)
+- **img_2.png** (Screen after correct answer with next question button)
+- **img_3.png** (Screen after incorrect answer with next question button)
+- **img_4.png** (Final screen with result)
 ## 5. Technologies Used
 
 - **Java (Android SDK)**
